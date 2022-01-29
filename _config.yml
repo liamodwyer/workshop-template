@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Workshop Template
-email: bourdakos1@gmail.com
-description: A template for a GitHub pages workshop stepper UI.
+title: *Some DH software* Workshop
+email: liam.odwyer@dcu.ie
+description: A DCU Library Workshop in *some DH software*
 
 # Build settings
 markdown: kramdown
 theme: minima
+baseurl: "/something-workshop"
 
 # Direct posts to specific url
 collections:
